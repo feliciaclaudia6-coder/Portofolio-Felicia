@@ -1,17 +1,14 @@
-# Business Analyst Portfolio
+# Felicia Claudia Michele — Soft Pink Portfolio
 
-Responsive static portfolio website built with HTML, CSS and JavaScript.
+Ready-to-deploy static portfolio using HTML, CSS and JavaScript.
 
-## Local preview
-Open `index.html` in your browser, or use the VS Code Live Server extension.
+## Deploy to GitHub and Vercel
+Upload `index.html`, `style.css`, `script.js`, and the `images` folder together to the repository root. Commit changes and wait for Vercel to redeploy.
 
-## Personalize before publishing
-- Replace `Your Name` and `YN` in `index.html`.
-- Update the email, LinkedIn and GitHub links.
-- Replace sample project text with your actual project descriptions and links.
-- Review skills and education details for accuracy.
-- Add your own resume at `assets/resume.pdf`, or remove the resume button until ready.
-- Update the internship availability label if needed.
-
-## Deploy
-Upload the files to a GitHub repository, then import it into Vercel. This is a static HTML site, so no build command is needed.
+## Content to confirm
+- Marketing role: add exact company, dates, and job title if desired.
+- Organization section: replace generic text with verified organization names, roles, and dates from LinkedIn.
+- KenanginKopi: technical implementation details were not specified in the PDF, so the description avoids claiming unverified features.
+- Contact: LinkedIn and GitHub URLs were retained from the original portfolio. Verify that they are correct.
+- Certificate previews and project images were extracted from the supplied PDF.
+- No resume button or email placeholder is included, since no valid resume file or confirmed email was provided.
