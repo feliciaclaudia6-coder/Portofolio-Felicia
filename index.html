@@ -1,13 +1,15 @@
-```html
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta name="description" content="Felicia Claudia Michele's portfolio. BINUS Information Systems student interested in Business Analysis, data analytics, and technology.">
+  <meta name="description"
+    content="Felicia Claudia Michele's Information Systems, Business Analysis and Data Analytics portfolio.">
 
-  <title>Felicia Claudia Michele | Business Analyst Portfolio</title>
+  <title>Felicia Claudia Michele | Portfolio</title>
 
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
@@ -15,626 +17,806 @@
 
 <body>
 
-  <!-- NAVIGATION -->
-  <header class="site-header">
-    <nav class="navbar container">
-      <a href="#home" class="logo">Felicia.</a>
+<a class="skip-link" href="#main">Skip to content</a>
 
-      <button class="menu-toggle" id="menu-toggle"
-              aria-label="Toggle navigation"
-              aria-expanded="false">
-        ☰
-      </button>
+<!-- NAVIGATION -->
 
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
 
-      <a href="Felicia-CV.pdf"
-         class="btn btn-cv"
-         download="Felicia-Claudia-Michele-CV.pdf">
-        Download CV
+    <a class="brand" href="#home">
+      FCM<span class="brand-dot">.</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="nav-links"
+      aria-label="Open navigation">
+      ☰
+    </button>
+
+    <div class="nav-links" id="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certificates</a>
+      <a class="nav-contact" href="#contact">Contact ↗</a>
+    </div>
+
+    <a
+      href="Felicia-CV.pdf"
+      download="Felicia-Claudia-Michele-CV.pdf"
+      class="btn-cv">
+      Download My CV
+    </a>
+
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- HERO SECTION -->
+
+<section class="hero container" id="home">
+
+  <div class="hero-copy">
+
+    <p class="eyebrow">
+      <span class="status-dot"></span>
+      INFORMATION SYSTEMS STUDENT · BINUS UNIVERSITY
+    </p>
+
+    <h1>
+      Hi, I'm Felicia.<br>
+      Turning ideas into
+      <em>impactful</em> solutions<span class="accent">.</span>
+    </h1>
+
+    <p class="hero-description">
+      I'm <strong>Felicia Claudia Michele</strong>,
+      an Information Systems student passionate about
+      understanding business needs, designing practical
+      systems, and turning data into meaningful insights.
+    </p>
+
+    <div class="actions">
+      <a class="button button-dark" href="#projects">
+        Explore My Work ↗
       </a>
-    </nav>
-  </header>
 
+      <a class="button button-outline" href="#contact">
+        Get in Touch ↗
+      </a>
+    </div>
 
-  <main>
+    <p class="hero-note">
+      BUSINESS ANALYSIS · DATA ANALYTICS · SYSTEM DESIGN
+    </p>
 
-    <!-- HERO -->
-    <section class="hero section" id="home">
-      <div class="container hero-content">
+  </div>
 
-        <div class="hero-text">
-          <span class="eyebrow">INFORMATION SYSTEMS STUDENT</span>
+  <div class="hero-photo-wrap">
+    <div class="hero-photo-frame">
+      <img
+        src="images/felicia-profile.png"
+        alt="Portrait of Felicia Claudia Michele">
+    </div>
 
-          <h1>Hi, I'm <span>Felicia Claudia Michele</span></h1>
+    <span class="photo-caption">
+      HELLO, NICE TO MEET YOU ♡
+    </span>
+  </div>
 
-          <h2>Future Business Analyst</h2>
+</section>
 
-          <p>
-            I am an Information Systems student at BINUS University
-            who enjoys connecting business needs with technology.
-            I am interested in business analysis, data, and developing
-            practical solutions to improve business processes.
-          </p>
+<!-- TICKER -->
 
-          <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">Explore My Projects</a>
-            <a href="#contact" class="btn btn-outline">Contact Me</a>
-          </div>
-        </div>
+<div class="ticker">
+  <div class="container ticker-inner">
+    <span>ANALYZE</span>
+    <span>✦</span>
+    <span>DESIGN</span>
+    <span>✦</span>
+    <span>VISUALIZE</span>
+    <span>✦</span>
+    <span>IMPROVE</span>
+    <span>✦</span>
+    <span>COLLABORATE</span>
+  </div>
+</div>
 
-        <div class="hero-image-wrapper">
-          <img
-            src="images/felicia-profile.png"
-            alt="Felicia Claudia Michele"
-            class="hero-image"
-          >
-        </div>
+<!-- ABOUT ME -->
 
+<section class="section container about-grid" id="about">
+
+  <div>
+    <p class="eyebrow">01 / ABOUT ME</p>
+
+    <h2>
+      Curiosity meets <em>purpose.</em>
+    </h2>
+  </div>
+
+  <div class="about-copy">
+
+    <p>
+      I am an Information Systems student at BINUS University
+      who enjoys connecting business processes, people,
+      and technology.
+    </p>
+
+    <p>
+      Through academic projects, I have explored system
+      analysis, database design, UI/UX, and data visualization.
+      I also bring communication and teamwork experience
+      from my part-time role in university marketing
+      and involvement in student organizations.
+    </p>
+
+    <div class="small-facts">
+
+      <div>
+        <span>FIELD</span>
+        <strong>Information Systems</strong>
       </div>
-    </section>
 
-
-    <!-- ABOUT -->
-    <section class="section about-section" id="about">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">GET TO KNOW ME</span>
-          <h2>About Me</h2>
-        </div>
-
-        <div class="about-content">
-          <p>
-            I am an Information Systems student at BINUS University
-            with an interest in Business Analysis and the role of
-            technology in solving business problems.
-          </p>
-
-          <p>
-            Through my academic projects, I have learned to analyze
-            business processes, identify system requirements, design
-            database structures, and develop user interface prototypes.
-            I enjoy breaking down complex problems into clear and
-            practical solutions.
-          </p>
-
-          <p>
-            I also have experience in marketing and communication.
-            These experiences have helped me understand user needs,
-            communicate with different people, and work collaboratively
-            in a team.
-          </p>
-
-          <p>
-            I am looking for an internship opportunity where I can
-            apply my analytical skills, learn from real business
-            challenges, and contribute to meaningful projects.
-          </p>
-        </div>
+      <div>
+        <span>INTERESTS</span>
+        <strong>Business Analysis & Data</strong>
       </div>
-    </section>
 
+    </div>
+  </div>
 
-    <!-- SKILLS -->
-    <section class="section skills-section" id="skills">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">WHAT I WORK WITH</span>
-          <h2>Skills & Expertise</h2>
-          <p>
-            A combination of analytical, technical, and communication skills.
-          </p>
-        </div>
+</section>
 
-        <div class="skills-grid">
+<!-- SKILLS -->
 
-          <article class="skill-card">
-            <div class="skill-icon">01</div>
-            <h3>Business Analysis</h3>
-            <p>
-              Analyzing business processes, identifying requirements,
-              and translating business needs into system solutions.
-            </p>
+<section class="section section-tinted" id="skills">
 
-            <div class="tags">
-              <span>Requirements Analysis</span>
-              <span>Process Modeling</span>
-              <span>Activity Diagram</span>
-              <span>Use Case Diagram</span>
-              <span>Documentation</span>
-            </div>
-          </article>
+  <div class="container">
 
-          <article class="skill-card">
-            <div class="skill-icon">02</div>
-            <h3>Data & Technology</h3>
-            <p>
-              Preparing datasets, building visualizations, and working
-              with databases and web development.
-            </p>
+    <p class="eyebrow">02 / MY TOOLKIT</p>
 
-            <div class="tags">
-              <span>Microsoft Excel</span>
-              <span>Tableau</span>
-              <span>SQL</span>
-              <span>Oracle</span>
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
-          </article>
-
-          <article class="skill-card">
-            <div class="skill-icon">03</div>
-            <h3>Database & System Design</h3>
-            <p>
-              Designing structured databases and modeling how data
-              moves between different parts of a system.
-            </p>
-
-            <div class="tags">
-              <span>ERD</span>
-              <span>Database Design</span>
-              <span>Data Modeling</span>
-              <span>DFD</span>
-              <span>CRUD</span>
-            </div>
-          </article>
-
-          <article class="skill-card">
-            <div class="skill-icon">04</div>
-            <h3>Communication & Collaboration</h3>
-            <p>
-              Communicating with different stakeholders, understanding
-              their needs, and collaborating to achieve shared goals.
-            </p>
-
-            <div class="tags">
-              <span>Communication</span>
-              <span>Teamwork</span>
-              <span>Problem Solving</span>
-              <span>Presentation</span>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-
-    <!-- PROJECTS -->
-    <section class="section projects-section" id="projects">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">WHAT I HAVE BUILT</span>
-          <h2>Featured Projects</h2>
-          <p>
-            Academic and personal projects that demonstrate my
-            analytical, technical, and design skills.
-          </p>
-        </div>
-
-        <div class="projects-grid">
-
-          <!-- PROJECT 1 -->
-          <article class="project-card">
-            <div class="project-image">
-              <img
-                src="images/stsport.png"
-                alt="STSport business and system project"
-                loading="lazy"
-              >
-            </div>
-
-            <div class="project-content">
-              <span class="project-category">Business Analysis & UI/UX</span>
-              <h3>STSport Business System</h3>
-
-              <p>
-                Developed a business concept from the initial planning
-                stage to a dashboard interface. The project involved
-                analyzing business processes, modeling system activities,
-                designing an ERD, and developing UI/UX prototypes.
-              </p>
-
-              <div class="tags">
-                <span>Business Process</span>
-                <span>Activity Diagram</span>
-                <span>ERD</span>
-                <span>UI/UX</span>
-                <span>Dashboard</span>
-              </div>
-            </div>
-          </article>
-
-
-          <!-- PROJECT 2 -->
-          <article class="project-card">
-            <div class="project-image">
-              <img
-                src="images/kenanginkopi.png"
-                alt="Kenangin Kopi project preview"
-                loading="lazy"
-              >
-            </div>
-
-            <div class="project-content">
-              <span class="project-category">Information Systems</span>
-              <h3>Kenangin Kopi</h3>
-
-              <p>
-                Worked on a business-related system project focused on
-                organizing business requirements and translating ideas
-                into a structured digital solution.
-              </p>
-
-              <div class="tags">
-                <span>System Analysis</span>
-                <span>Business Process</span>
-                <span>System Design</span>
-              </div>
-            </div>
-          </article>
-
-
-          <!-- PROJECT 3 -->
-          <article class="project-card">
-            <div class="project-image">
-              <img
-                src="images/tableau-dashboard.png"
-                alt="Tableau data visualization dashboard"
-                loading="lazy"
-              >
-            </div>
-
-            <div class="project-content">
-              <span class="project-category">Data Analytics</span>
-              <h3>Retail Sales Dashboard</h3>
-
-              <p>
-                Analyzed retail transaction data and created visualizations
-                to explore sales patterns, spending behavior, and product
-                performance. The dashboard helps present findings in a
-                format that supports business decisions.
-              </p>
-
-              <div class="tags">
-                <span>Tableau</span>
-                <span>Data Cleaning</span>
-                <span>Data Visualization</span>
-                <span>Business Insights</span>
-              </div>
-            </div>
-          </article>
-
-
-          <!-- PROJECT 4 -->
-          <article class="project-card">
-            <div class="project-image">
-              <img
-                src="images/hospital-dashboard.png"
-                alt="Hospital data or dashboard project"
-                loading="lazy"
-              >
-            </div>
-
-            <div class="project-content">
-              <span class="project-category">Data & Information Systems</span>
-              <h3>Healthcare Data Project</h3>
-
-              <p>
-                Explored how structured data and visual representations
-                can help organize information and make findings easier
-                to understand.
-              </p>
-
-              <div class="tags">
-                <span>Data Analysis</span>
-                <span>Visualization</span>
-                <span>Information Systems</span>
-              </div>
-            </div>
-          </article>
-
-
-          <!-- PROJECT 5 -->
-          <article class="project-card">
-            <div class="project-image">
-              <img
-                src="images/moneyrv.png"
-                alt="MoneyRV project preview"
-                loading="lazy"
-              >
-            </div>
-
-            <div class="project-content">
-              <span class="project-category">Digital Solution</span>
-              <h3>MoneyRV</h3>
-
-              <p>
-                Worked on a digital project focused on presenting
-                information through a structured interface and applying
-                information systems concepts to a practical use case.
-              </p>
-
-              <div class="tags">
-                <span>System Design</span>
-                <span>UI/UX</span>
-                <span>Problem Solving</span>
-              </div>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-
-    <!-- EXPERIENCE -->
-    <section class="section experience-section" id="experience">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">MY JOURNEY</span>
-          <h2>Experience & Organizations</h2>
-          <p>
-            Experiences that have helped me develop my professional
-            and interpersonal skills.
-          </p>
-        </div>
-
-        <div class="experience-grid">
-
-          <!-- MARKETING EXPERIENCE -->
-          <article class="experience-card">
-            <img
-              class="experience-image"
-              src="images/marketing-team.png"
-              alt="Marketing Team Promotion at BINUS"
-              loading="lazy"
-            >
-
-            <div class="experience-content">
-              <span class="project-category">Professional Experience</span>
-
-              <h3>Marketing Team, Promotion</h3>
-
-              <p class="experience-company">
-                BINUS University | Part-Time
-              </p>
-
-              <p>
-                Supported student recruitment and promotional activities
-                by managing prospective student data using Microsoft
-                Excel and Salesforce CRM.
-              </p>
-
-              <p>
-                Communicated with prospective students and parents to
-                explain study programs, provide suitable program
-                recommendations, answer questions, and assist them
-                throughout the registration process.
-              </p>
-
-              <div class="tags">
-                <span>Microsoft Excel</span>
-                <span>Salesforce CRM</span>
-                <span>Communication</span>
-                <span>Student Recruitment</span>
-                <span>Data Management</span>
-              </div>
-            </div>
-          </article>
-
-
-          <!-- KMK EXPERIENCE -->
-          <article class="experience-card">
-            <div class="experience-content">
-              <span class="project-category">Organizational Experience</span>
-
-              <h3>Keluarga Mahasiswa Katolik (KMK)</h3>
-
-              <p class="experience-company">
-                BINUS University
-              </p>
-
-              <p>
-                Participated in student organizational activities and
-                collaborated with fellow members in a campus community.
-                This experience helped develop teamwork, communication,
-                responsibility, and coordination skills.
-              </p>
-
-              <p>
-                Through organizational involvement, I gained experience
-                working with others, supporting shared activities, and
-                contributing to a positive student community.
-              </p>
-
-              <div class="tags">
-                <span>Teamwork</span>
-                <span>Communication</span>
-                <span>Coordination</span>
-                <span>Organization</span>
-              </div>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-
-    <!-- EDUCATION -->
-    <section class="section education-section" id="education">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">MY ACADEMIC BACKGROUND</span>
-          <h2>Education</h2>
-        </div>
-
-        <article class="education-card">
-          <div class="education-icon">B</div>
-
-          <div>
-            <h3>BINUS University</h3>
-            <p class="education-degree">Bachelor's Degree in Information Systems</p>
-            <p>
-              Studying business processes, systems analysis and design,
-              database management, data analytics, and technology-based
-              business solutions.
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-
-    <!-- CERTIFICATIONS -->
-    <section class="section certifications-section" id="certifications">
-      <div class="container">
-        <div class="section-heading">
-          <span class="eyebrow">CONTINUOUS LEARNING</span>
-          <h2>Certifications & Learning</h2>
-          <p>
-            Selected certificates and learning experiences.
-          </p>
-        </div>
-
-        <div class="certifications-grid">
-
-          <article class="certificate-card">
-            <img
-              src="images/oracle-certificate.png"
-              alt="Oracle certificate"
-              loading="lazy"
-            >
-            <div class="certificate-content">
-              <h3>Oracle</h3>
-              <p>Database and technology learning.</p>
-            </div>
-          </article>
-
-          <article class="certificate-card">
-            <img
-              src="images/ai-certificate.png"
-              alt="Artificial intelligence certificate"
-              loading="lazy"
-            >
-            <div class="certificate-content">
-              <h3>Artificial Intelligence</h3>
-              <p>Learning about AI concepts and applications.</p>
-            </div>
-          </article>
-
-          <article class="certificate-card">
-            <img
-              src="images/revoU-certificate.png"
-              alt="RevoU certificate"
-              loading="lazy"
-            >
-            <div class="certificate-content">
-              <h3>RevoU</h3>
-              <p>Additional professional learning experience.</p>
-            </div>
-          </article>
-
-          <article class="certificate-card">
-            <img
-              src="images/ai-participation.png"
-              alt="AI event participation certificate"
-              loading="lazy"
-            >
-            <div class="certificate-content">
-              <h3>AI Learning & Participation</h3>
-              <p>Participation in an AI-related learning activity.</p>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-
-    <!-- CONTACT -->
-    <section class="section contact-section" id="contact">
-      <div class="container contact-container">
-        <span class="eyebrow">LET'S CONNECT</span>
-
-        <h2>Have an Opportunity in Mind?</h2>
-
-        <p>
-          I am open to internship opportunities in Business Analysis,
-          Information Systems, and related fields. Feel free to reach
-          out if you would like to connect.
-        </p>
-
-        <div class="contact-buttons">
-          <a
-            href="mailto:your-email@example.com"
-            class="btn btn-primary"
-          >
-            Email Me
-          </a>
-
-          <a
-            href="https://www.linkedin.com/"
-            class="btn btn-outline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container">
+    <div class="section-heading">
+      <h2>Skills & <em>strengths.</em></h2>
       <p>
-        © <span id="current-year"></span> Felicia Claudia Michele.
-        Built with purpose.
+        Analytical, technical, and collaborative skills
+        developed through academic projects,
+        professional experience, and organizational activities.
       </p>
     </div>
-  </footer>
 
+    <div class="skills-grid">
 
-  <!-- SIMPLE NAVIGATION SCRIPT -->
-  <script>
-    const menuToggle = document.getElementById("menu-toggle");
-    const navLinks = document.getElementById("nav-links");
+      <article class="skill-card">
+        <span class="skill-number">01</span>
 
-    if (menuToggle && navLinks) {
-      menuToggle.addEventListener("click", function () {
-        const isOpen = navLinks.classList.toggle("active");
-        menuToggle.setAttribute("aria-expanded", String(isOpen));
-      });
+        <h3>Business & Systems</h3>
 
-      navLinks.querySelectorAll("a").forEach(function (link) {
-        link.addEventListener("click", function () {
-          navLinks.classList.remove("active");
-          menuToggle.setAttribute("aria-expanded", "false");
-        });
-      });
-    }
+        <p>
+          Analyzing business processes, documenting
+          requirements, and designing information systems.
+        </p>
 
-    const yearElement = document.getElementById("current-year");
+        <div class="tags">
+          <span>Business Analysis</span>
+          <span>SWOT Analysis</span>
+          <span>ERD</span>
+          <span>Context Diagram</span>
+          <span>State Transition Diagram</span>
+          <span>System Design</span>
+        </div>
+      </article>
 
-    if (yearElement) {
-      yearElement.textContent = new Date().getFullYear();
-    }
-  </script>
+      <article class="skill-card">
+        <span class="skill-number">02</span>
+
+        <h3>Data & Technology</h3>
+
+        <p>
+          Preparing datasets, developing dashboards,
+          managing databases, and building web applications.
+        </p>
+
+        <div class="tags">
+          <span>Microsoft Excel</span>
+          <span>Tableau</span>
+          <span>SQL</span>
+          <span>Oracle</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>PHP</span>
+          <span>MySQL</span>
+          <span>Salesforce CRM</span>
+        </div>
+      </article>
+
+      <article class="skill-card">
+        <span class="skill-number">03</span>
+
+        <h3>Communication & Design</h3>
+
+        <p>
+          Communicating with stakeholders, collaborating
+          with teams, presenting ideas, and designing
+          user-friendly digital experiences.
+        </p>
+
+        <div class="tags">
+          <span>Communication</span>
+          <span>Teamwork</span>
+          <span>Problem Solving</span>
+          <span>UI/UX Design</span>
+          <span>Presentation</span>
+          <span>Marketing</span>
+          <span>Customer Engagement</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+
+<section class="section container" id="projects">
+
+  <p class="eyebrow">03 / SELECTED WORK</p>
+
+  <div class="section-heading">
+    <h2>Featured <em>projects.</em></h2>
+    <p>
+      Academic work spanning system development,
+      UI/UX, and data visualization.
+    </p>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- STSPORT -->
+
+    <article class="project-card">
+
+      <div class="project-visual">
+        <img
+          src="images/stsport.png"
+          alt="STSPORT booking platform and admin dashboard"
+          loading="lazy">
+      </div>
+
+      <div class="project-info">
+
+        <span class="project-type">
+          BUSINESS ANALYSIS / SYSTEM DESIGN
+        </span>
+
+        <h3>STSPORT — Sports Booking Platform</h3>
+
+        <p>
+          Designed a sports business concept from the initial
+          idea to system documentation and UI/UX. Developed
+          SWOT analysis, ERD, context diagrams, and state
+          transition diagrams. The proposed platform supports
+          volleyball, basketball, tennis, and padel court
+          bookings, sports equipment purchases,
+          and an admin dashboard.
+        </p>
+
+        <div class="tags">
+          <span>Business Analysis</span>
+          <span>ERD</span>
+          <span>SWOT</span>
+          <span>UI/UX</span>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- KENANGINKOPI -->
+
+    <article class="project-card">
+
+      <div class="project-visual">
+        <img
+          src="images/kenanginkopi.jpeg"
+          alt="KenanginKopi coffee website preview"
+          loading="lazy">
+      </div>
+
+      <div class="project-info">
+
+        <span class="project-type">
+          PROGRAMMING FOR BUSINESS / WEB DEVELOPMENT
+        </span>
+
+        <h3>KenanginKopi — Coffee Website</h3>
+
+        <p>
+          Developed a coffee-themed website as a final
+          project for Programming for Business, focusing
+          on website structure, presentation, and the
+          digital customer experience.
+        </p>
+
+        <div class="tags">
+          <span>Web Development</span>
+          <span>Programming for Business</span>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- HOSPITAL DASHBOARD -->
+
+    <article class="project-card">
+
+      <div class="project-visual">
+        <img
+          src="images/hospital-dashboard.jpeg"
+          alt="Interactive hospital data dashboard"
+          loading="lazy">
+      </div>
+
+      <div class="project-info">
+
+        <span class="project-type">
+          DATA ANALYTICS / DASHBOARD
+        </span>
+
+        <h3>Hospital Data Dashboard</h3>
+
+        <p>
+          Created an interactive dashboard to present
+          hospital-related data in a clear visual format,
+          making patterns and key metrics easier
+          to explore and understand.
+        </p>
+
+        <div class="tags">
+          <span>Interactive Dashboard</span>
+          <span>Data Visualization</span>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- MONEYRV -->
+
+    <article class="project-card">
+
+      <div class="project-visual">
+        <img
+          src="images/moneyrv.png"
+          alt="MoneyRV mobile app UI/UX screens"
+          loading="lazy">
+      </div>
+
+      <div class="project-info">
+
+        <span class="project-type">
+          UI/UX DESIGN
+        </span>
+
+        <h3>MoneyRV — Mobile App UI/UX</h3>
+
+        <p>
+          Designed mobile application interface screens
+          with attention to layout, navigation,
+          and a consistent visual experience.
+        </p>
+
+        <div class="tags">
+          <span>UI/UX</span>
+          <span>Mobile Interface</span>
+        </div>
+
+      </div>
+    </article>
+
+    <!-- TABLEAU DASHBOARD -->
+
+    <article class="project-card">
+
+      <div class="project-visual">
+        <img
+          src="images/tableu-dashboard.png"
+          alt="Retail sales performance Tableau dashboard"
+          loading="lazy">
+      </div>
+
+      <div class="project-info">
+
+        <span class="project-type">
+          DATA CLEANING / TABLEAU
+        </span>
+
+        <h3>Retail Sales Performance Dashboard</h3>
+
+        <p>
+          Cleaned and prepared a retail dataset using
+          Microsoft Excel, then built a Tableau dashboard
+          to visualize sales performance, spending
+          patterns, and category insights.
+        </p>
+
+        <div class="tags">
+          <span>Excel</span>
+          <span>Tableau</span>
+          <span>Data Cleaning</span>
+        </div>
+
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+
+<section class="section section-tinted" id="experience">
+
+  <div class="container">
+
+    <p class="eyebrow">04 / EXPERIENCE</p>
+
+    <div class="section-heading">
+      <h2>Beyond the <em>classroom.</em></h2>
+
+      <p>
+        Professional experience and organizational
+        involvement that strengthened my communication,
+        problem-solving, and collaboration skills.
+      </p>
+    </div>
+
+    <div class="experience-grid">
+
+      <!-- PROFESSIONAL EXPERIENCE -->
+
+      <article class="experience-card">
+
+        <img
+          src="images/marketing-team.jpeg"
+          alt="Felicia's BINUS Marketing Team Promotion activities"
+          loading="lazy"
+          style="
+            display:block;
+            width:100%;
+            height:250px;
+            object-fit:cover;
+            object-position:center;
+          ">
+
+        <div class="experience-content">
+
+          <span class="project-type">
+            PART-TIME PROFESSIONAL EXPERIENCE
+          </span>
+
+          <h3>Marketing Team — Promotion</h3>
+
+          <p class="experience-company">
+            BINUS University | Part-Time
+          </p>
+
+          <p>
+            Worked as part of the BINUS University
+            Marketing Team, supporting student recruitment,
+            promotional activities, and prospective
+            student engagement.
+          </p>
+
+          <p>
+            Managed, organized, and updated prospective
+            student data using Microsoft Excel and
+            Salesforce CRM to maintain accurate records
+            and support marketing operations.
+          </p>
+
+          <p>
+            Communicated directly with prospective students
+            and their parents to provide information about
+            academic programs, admission requirements,
+            and university opportunities.
+          </p>
+
+          <p>
+            Provided personalized program recommendations
+            based on students' interests and academic goals,
+            helping them explore suitable study options
+            and make informed decisions.
+          </p>
+
+          <p>
+            Conducted follow-ups with prospective students,
+            answered admission-related inquiries, and
+            assisted applicants throughout the university
+            registration and enrollment process.
+          </p>
+
+          <div class="tags">
+            <span>Microsoft Excel</span>
+            <span>Salesforce CRM</span>
+            <span>Communication</span>
+            <span>Student Recruitment</span>
+            <span>Data Management</span>
+            <span>Customer Engagement</span>
+            <span>Marketing</span>
+          </div>
+
+        </div>
+      </article>
+
+      <!-- ORGANIZATIONAL EXPERIENCE -->
+
+      <article class="experience-card">
+
+        <div class="experience-content">
+
+          <span class="project-type">
+            ORGANIZATIONAL EXPERIENCE
+          </span>
+
+          <h3>
+            Keluarga Mahasiswa Katolik (KMK)
+          </h3>
+
+          <p class="experience-company">
+            BINUS University | Organization Member
+          </p>
+
+          <p>
+            Involved in Keluarga Mahasiswa Katolik
+            (KMK) at BINUS University, participating
+            in a student organization that encourages
+            collaboration, community engagement,
+            and personal development.
+          </p>
+
+          <p>
+            Developed interpersonal communication,
+            teamwork, and organizational skills
+            through involvement in student activities
+            and collaboration with fellow members.
+          </p>
+
+          <p>
+            Gained valuable experience in working
+            with people from different backgrounds,
+            building relationships, and contributing
+            to a supportive campus community.
+          </p>
+
+          <div class="tags">
+            <span>Teamwork</span>
+            <span>Communication</span>
+            <span>Collaboration</span>
+            <span>Organization</span>
+            <span>Community Engagement</span>
+          </div>
+
+          <a
+            class="text-link"
+            href="https://www.linkedin.com/in/feliciamichele/"
+            target="_blank"
+            rel="noopener noreferrer">
+            View My LinkedIn ↗
+          </a>
+
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+
+<section class="section education-section" id="education">
+
+  <div class="container education-grid">
+
+    <div>
+      <p class="eyebrow">05 / EDUCATION</p>
+      <h2>Always <em>learning.</em></h2>
+    </div>
+
+    <div class="education-card">
+
+      <div class="education-icon">B</div>
+
+      <div>
+        <span>UNIVERSITY</span>
+
+        <h3>BINUS University</h3>
+
+        <p>Information Systems</p>
+
+        <p class="education-note">
+          Academic focus: systems analysis and design,
+          databases, data modeling, and project management.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+
+<section class="section container" id="certifications">
+
+  <p class="eyebrow">06 / CERTIFICATIONS</p>
+
+  <div class="section-heading">
+    <h2>Learning <em>milestones.</em></h2>
+
+    <p>
+      Certificates and courses from my ongoing
+      learning journey.
+    </p>
+  </div>
+
+  <div class="certificate-grid">
+
+    <!-- ORACLE -->
+
+    <article class="certificate-card">
+
+      <a
+        href="images/cloud-certificate.jpeg"
+        target="_blank"
+        rel="noopener noreferrer">
+
+        <img
+          src="images/cloud-certificate.jpeg"
+          alt="Oracle Academy Applied Database Systems certificate"
+          loading="lazy">
+      </a>
+
+      <div>
+        <h3>Applied Database Systems</h3>
+        <p>Oracle Academy · Award of Completion</p>
+      </div>
+
+    </article>
+
+    <!-- REVOU -->
+
+    <article class="certificate-card">
+
+      <a
+        href="images/revou-certificate.jpeg"
+        target="_blank"
+        rel="noopener noreferrer">
+
+        <img
+          src="images/revou-certificate.jpeg"
+          alt="RevoU Intro to Data Analytics certificate"
+          loading="lazy">
+      </a>
+
+      <div>
+        <h3>Intro to Data Analytics</h3>
+        <p>RevoU · Mini Course</p>
+      </div>
+
+    </article>
+
+    <!-- AZURE AI COMPLETION -->
+
+    <article class="certificate-card">
+
+      <a
+        href="images/ai-certificate.jpeg"
+        target="_blank"
+        rel="noopener noreferrer">
+
+        <img
+          src="images/ai-certificate.jpeg"
+          alt="Azure AI Basic Fundamental completion certificate"
+          loading="lazy">
+      </a>
+
+      <div>
+        <h3>Azure AI Basic Fundamental</h3>
+        <p>Self-Paced Learning · Completion</p>
+      </div>
+
+    </article>
+
+    <!-- AZURE AI PARTICIPATION -->
+
+    <article class="certificate-card">
+
+      <a
+        href="images/ai-participation.jpeg"
+        target="_blank"
+        rel="noopener noreferrer">
+
+        <img
+          src="images/ai-participation.jpeg"
+          alt="Azure AI Basic Fundamental participation certificate"
+          loading="lazy">
+      </a>
+
+      <div>
+        <h3>Azure AI Basic Fundamental</h3>
+        <p>Instructor-Led Learning · Participation</p>
+      </div>
+
+    </article>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+
+<section class="section contact-section" id="contact">
+
+  <div class="container">
+
+    <p class="eyebrow">07 / GET IN TOUCH</p>
+
+    <h2>
+      Let's connect & <em>collaborate.</em>
+    </h2>
+
+    <p>
+      Interested in connecting about business analysis,
+      information systems, or internship opportunities?
+      I'd love to hear from you.
+    </p>
+
+    <div class="social-links">
+
+      <a
+        href="https://www.linkedin.com/in/feliciamichele/"
+        target="_blank"
+        rel="noopener noreferrer">
+        LinkedIn ↗
+      </a>
+
+      <a
+        href="https://github.com/feliciaclaudia6-coder"
+        target="_blank"
+        rel="noopener noreferrer">
+        GitHub ↗
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+  <div class="container footer-inner">
+
+    <span>
+      © <span id="year">2026</span>
+      Felicia Claudia Michele
+    </span>
+
+    <span>MADE WITH CARE ♡</span>
+
+    <a href="#home">BACK TO TOP ↑</a>
+
+  </div>
+
+</footer>
 
 </body>
 </html>
-```
